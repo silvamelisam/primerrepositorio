@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tarea Formularios</h1>
+    <h3> Melisa Silva</h3>
+    <hr>
+
+    <form action="">
+        <fieldset>
+            <legend> Formulario de reserva Cabañas del Lago</legend>
+            <ul>
+            <li><label for="Nombre">Nombre y Apellido:</label> <input type="text" required placeholder="Nombre y apellido"></li>
+            <br>
+            <li><label for="FechaIngreso">Fecha de Ingreso:</label> <input type="date" required></li>
+            <li><label for="FechaEgreso">Fecha de Egreso:</label> <input type="date" required></li>
+            <br>
+            <li><label for="CantidadPersonas"> Cantidad de Adultos (+10 años) </label> <select name="Personas"></li>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+            <li> <label for="CantidadMenores"> Cantidad de menores (0 a 10 años) </label> <select name="Menores"></li>
+                <option value="1">0</option>
+                <option value="2">1</option>
+                <option value="3">2</option>
+                <option value="4">3</option>
+            </select>
+            <br>
+            <br>
+            <li><label for="Tipo de cabaña">¿Qué cabaña le gustaria ocupar?</label> </li>
+            <br>
+            <input type="radio" name="cabañas" value="1"> Para dos personas, un dormitorio> 
+            <br>
+            <input type="radio" name="cabañas" value="2"> Para cuatro personas, un dormitorios> 
+            <br>
+            <input type="radio" name="cabañas" value="3"> Para cuatro personas, dos dormitorios> 
+            <br>
+            <input type="radio" name="cabañas" value="4"> Departamento adaptado para cuatro personas, dos dormitorios> 
+            <br>
+            <br>
+            <li><label for="Asistencia">Requiero asistencia especial</label> <input type="checkbox"></li>
+            <br>
+            <li><label for="email"> e-mail de contacto:</label> <input type="email" required placeholder="Ingrese su correo electrónico">
+            <br>
+            <br>
+            <li><label for="Comentarios">Otros comentarios</label></li>
+            <br>
+            <textarea name="comentario" id="comentario" cols="30" rows="3" > ¿Alguna solicitud especial que desee realizar?  </textarea>
+            <legend>Gracias por elegirnos!</legend>
+            </ul>    
+        </fieldset>
+
+            <input type="submit">
+    </form>
+
+</body>
+</html>
